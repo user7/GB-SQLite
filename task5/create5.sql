@@ -52,10 +52,10 @@ INSERT INTO courses (id, title) VALUES
 ;
 
 INSERT INTO streams (id, course_id, number, started_at, students_n) VALUES
-    (1, 3, 165, '18.08.2020', 34),
-    (2, 2, 178, '02.10.2020', 37),
-    (3, 1, 203, '12.11.2020', 35),
-    (4, 1, 210, '03.11.2020', 41)
+    (1, 3, 165, '2020-18-08', 34),
+    (2, 2, 178, '2020-02-10', 37),
+    (3, 1, 203, '2020-12-11', 35),
+    (4, 1, 210, '2020-03-11', 41)
 ;
 
 INSERT INTO performance (teacher_id, stream_id, grade_avg) VALUES
