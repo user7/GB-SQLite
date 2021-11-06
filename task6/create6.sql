@@ -42,7 +42,8 @@ CREATE TABLE performance (
 INSERT INTO teachers (id, name, surname, email) VALUES
     (1, 'Николай', 'Савельев', 'saveliev.n@mail.ru'),
     (2, 'Наталья', 'Петрова',  'petrova.n@ayndex.ru'),
-    (3, 'Елена',   'Малышева', 'malisheva.e@google.com')
+    (3, 'Елена',   'Малышева', 'malisheva.e@google.com'),
+    (4, 'Макарий', 'Старцев',  'e@example.com')
 ;
 
 INSERT INTO courses (id, title) VALUES
@@ -52,10 +53,10 @@ INSERT INTO courses (id, title) VALUES
 ;
 
 INSERT INTO streams (id, course_id, number, started_at, students_n) VALUES
-    (1, 3, 165, '18.08.2020', 34),
-    (2, 2, 178, '02.10.2020', 37),
-    (3, 1, 203, '12.11.2020', 35),
-    (4, 1, 210, '03.11.2020', 41)
+    (1, 3, 165, '2020-08-18', 34),
+    (2, 2, 178, '2020-10-02', 37),
+    (3, 1, 203, '2020-11-12', 35),
+    (4, 2, 210, '2020-11-03', 41)
 ;
 
 INSERT INTO performance (teacher_id, stream_id, grade_avg) VALUES
